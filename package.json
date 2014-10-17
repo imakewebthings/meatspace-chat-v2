@@ -31,7 +31,7 @@
     "webrtc2images": "~1.4.3"
   },
   "devDependencies": {
-    "browserify-shim": "^3.7.0",
+    "browserify-shim": "^3.8.0",
     "gulp": "^3.8.7",
     "gulp-autowatch": "0.0.1",
     "gulp-cached": "^1.0.1",
