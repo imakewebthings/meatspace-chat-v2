@@ -54,6 +54,10 @@ exports.getMessage = function (data, mutedFP, userIdManager, profile, messages) 
     messages.append(li);
     p.append(time);
 
+    if (document.hidden) {
+      video[0].pause();
+    }
+
     var children = messages.find('li');
 
     var waypoints = [];
